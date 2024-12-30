@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/sls-shisha-website/static/css/main.9e3c3f07.css",
-    "main.js": "/sls-shisha-website/static/js/main.3a7ab712.js",
-    "static/media/img1.png": "/sls-shisha-website/static/media/img1.7a0c569545f7cce3c462.png",
-    "static/media/logo.jpg": "/sls-shisha-website/static/media/logo.1b6fac2f5bb72fa3801c.jpg",
-    "static/media/img4.jpg": "/sls-shisha-website/static/media/img4.d48a2cc1510a708e202d.jpg",
-    "static/media/img3.jpg": "/sls-shisha-website/static/media/img3.9cf1c59c9dba7a8307fe.jpg",
-    "static/media/lobster-bisque.jpg": "/sls-shisha-website/static/media/lobster-bisque.4d902d2e46ee0bdc8c8b.jpg",
-    "static/media/img2.jpg": "/sls-shisha-website/static/media/img2.71929cfe6606667f8d1b.jpg",
-    "static/media/bg3.jpg": "/sls-shisha-website/static/media/bg3.243a7b9f2942bf0ecbea.jpg",
-    "static/media/alf_logo.png": "/sls-shisha-website/static/media/alf_logo.2c571900655980667a90.png",
-    "index.html": "/sls-shisha-website/index.html",
-    "main.9e3c3f07.css.map": "/sls-shisha-website/static/css/main.9e3c3f07.css.map",
-    "main.3a7ab712.js.map": "/sls-shisha-website/static/js/main.3a7ab712.js.map"
+    "main.css": "/sls-shisha/static/css/main.9e3c3f07.css",
+    "main.js": "/sls-shisha/static/js/main.fb65617f.js",
+    "static/media/img1.png": "/sls-shisha/static/media/img1.7a0c569545f7cce3c462.png",
+    "static/media/logo.jpg": "/sls-shisha/static/media/logo.1b6fac2f5bb72fa3801c.jpg",
+    "static/media/img4.jpg": "/sls-shisha/static/media/img4.d48a2cc1510a708e202d.jpg",
+    "static/media/img3.jpg": "/sls-shisha/static/media/img3.9cf1c59c9dba7a8307fe.jpg",
+    "static/media/lobster-bisque.jpg": "/sls-shisha/static/media/lobster-bisque.4d902d2e46ee0bdc8c8b.jpg",
+    "static/media/img2.jpg": "/sls-shisha/static/media/img2.71929cfe6606667f8d1b.jpg",
+    "static/media/bg3.jpg": "/sls-shisha/static/media/bg3.243a7b9f2942bf0ecbea.jpg",
+    "static/media/alf_logo.png": "/sls-shisha/static/media/alf_logo.2c571900655980667a90.png",
+    "index.html": "/sls-shisha/index.html",
+    "main.9e3c3f07.css.map": "/sls-shisha/static/css/main.9e3c3f07.css.map",
+    "main.fb65617f.js.map": "/sls-shisha/static/js/main.fb65617f.js.map"
   },
   "entrypoints": [
     "static/css/main.9e3c3f07.css",
-    "static/js/main.3a7ab712.js"
+    "static/js/main.fb65617f.js"
   ]
 }
