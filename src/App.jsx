@@ -12,23 +12,32 @@ import shisha from "./assets/img/shisha.jpg";
 import System from "./components/System";
 import RecommendedMixes from "./components/Mixes";
 import Drinks from "./components/Drinks";
-import img4 from "./assets/img/cloud2.png";
+
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Homepage from "./components/Homepage";
 
 function App() {
-	useEffect(() => {
-		initializeScripts();
-	}, []);
 	return (
-		<>
-			<Header />
-			<Hero />
-			<System />
-			<RecommendedMixes />
-			<Menu />
-			<Drinks />
-			<Access />
-			<Footer />
-		</>
+		<Router>
+			<Routes>
+				<Route
+					path="/sls-shisha"
+					element={
+						<>
+							<Homepage />
+						</>
+					}
+				/>
+				<Route
+					path="/sls-shisha/flavors"
+					element={
+						<>
+							<Access />
+						</>
+					}
+				/>
+			</Routes>
+		</Router>
 	);
 }
 
