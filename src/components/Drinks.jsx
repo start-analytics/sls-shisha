@@ -7,7 +7,7 @@ const spices = ["パンラズナ", "スプリングウォーター", "シナモ�
 const others = ["ダブルアップル", "ミント", "ジャスミン", "シガー", "ローズ", "ヒノキ", "モヒート"];
 const Drinks = () => {
 	return (
-		<section id="drinks" className="menu section pt-2">
+		<section style={{ marginTop: "140px" }} id="drinks" className="menu section pt-2">
 			<div className="section-title pb-0 mb-5">
 				<h2 className="d-flex align-items-center justify-content-center">Drinks</h2>
 			</div>

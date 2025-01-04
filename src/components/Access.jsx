@@ -64,16 +64,16 @@ const Access = () => {
 								<div>
 									<h3 style={{ color: "black" }}>Open Hours</h3>{" "}
 									<p>
-										<b>Monday-Thursday:</b> 2:00 PM - 2:00 AM
+										<b>月〜木:</b> 14:00〜2:00
 									</p>
 									<p>
-										<b>Friday</b> 2:00 PM - 4:00 AM
+										<b>金:</b> 14:00〜4:00
 									</p>
 									<p>
-										<b>Saturday</b> 1:00 PM - 4:00 AM
+										<b>土:</b> 13:00〜4:00
 									</p>
 									<p>
-										<b>Sunday </b> 1:00 PM - 2:00 AM
+										<b>日:</b> 13:00〜2:00
 									</p>
 								</div>
 							</div>

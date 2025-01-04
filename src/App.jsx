@@ -12,13 +12,18 @@ import shisha from "./assets/img/shisha.jpg";
 import System from "./components/System";
 import RecommendedMixes from "./components/Mixes";
 import Drinks from "./components/Drinks";
+import ScrollTop from "./components/ScrollTop"; // Import the ScrollToTop component
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Homepage from "./components/Homepage";
 
 function App() {
+	useEffect(() => {
+		initializeScripts();
+	}, []);
 	return (
 		<Router>
+			<ScrollTop />
 			<Routes>
 				<Route
 					path="/sls-shisha"
@@ -32,7 +37,31 @@ function App() {
 					path="/sls-shisha/flavors"
 					element={
 						<>
-							<Access />
+							<Header />
+							<RecommendedMixes />
+							<Menu />
+							<Footer />
+						</>
+					}
+				/>
+				<Route
+					path="/sls-shisha/drinks"
+					element={
+						<>
+							<Header />
+							<Drinks />
+							<Footer />
+						</>
+					}
+				/>
+
+				<Route
+					path="/sls-shisha/system"
+					element={
+						<>
+							<Header />
+							<System />
+							<Footer />
 						</>
 					}
 				/>

@@ -1,6 +1,6 @@
 const System = () => {
 	return (
-		<section id="system" className="menu section pb-2">
+		<section id="system" style={{ marginTop: "140px" }} className="menu section pb-2">
 			<div className="section-title pb-0">
 				<h2 className="d-flex align-items-center justify-content-center">System</h2>
 			</div>
