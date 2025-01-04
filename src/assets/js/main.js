@@ -133,14 +133,6 @@ export const initializeScripts = () => {
 	window.addEventListener("load", navmenuScrollspy);
 	document.addEventListener("scroll", navmenuScrollspy);
 
-	// Preloader removal on load
-	const preloader = document.querySelector("#preloader");
-	if (preloader) {
-		window.addEventListener("load", () => {
-			preloader.remove();
-		});
-	}
-
 	// Cleanup function to remove event listeners
 	return () => {
 		document.removeEventListener("scroll", toggleScrolled);

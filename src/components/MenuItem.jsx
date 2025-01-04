@@ -1,12 +1,13 @@
-const MenuItem = ({url, title, price, description, filter})=>{return(
-<div className={`col-lg-6 menu-item isotope-item ${filter}`}>    
-    <img src={url} className="menu-img" alt="" />
-    <div className="menu-content">
-        <div >{title}</div>
-        <span>{price}</span>
-    </div>
-    <div className="menu-ingredients">{description}</div>
-</div>
-);}
+const MenuItem = ({ title, filter }) => {
+	return (
+		<div className={`col-4 col-sm-4 col-md-4 col-lg-4 menu-item isotope-item ${filter}`}>
+			<div>
+				<div className="text-center" style={{ fontWeight: "600" }}>
+					{title}
+				</div>
+			</div>
+		</div>
+	);
+};
 
 export default MenuItem;

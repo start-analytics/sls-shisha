@@ -1,5 +1,3 @@
-import logo from "../assets/img/logo.jpg";
-
 const Header = () => {
 	return (
 		<header id="header" className="header fixed-top">
@@ -7,8 +5,7 @@ const Header = () => {
 				<div className="container position-relative d-flex align-items-center justify-content-between">
 					<a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
 						<div className="d-flex">
-							<img src={logo} style={{ borderRadius: "50%" }} className="margin-right-13" alt="logo" />
-							<h1 className="sitename">SLS Shisha</h1>
+							<h1 className="sitename">SLS 武蔵小杉 シーシャcafe & bar</h1>
 						</div>
 					</a>
 					<nav id="navmenu" className="navmenu">
@@ -20,7 +17,16 @@ const Header = () => {
 								</a>
 							</li>
 							<li>
-								<a href="#menu">Menu</a>
+								<a href="#system">System</a>
+							</li>
+							<li>
+								<a href="#recommended-mixes">Recommended Mixes</a>
+							</li>
+							<li>
+								<a href="#flavors">Flavors</a>
+							</li>
+							<li>
+								<a href="#drinks">Drinks</a>
 							</li>
 							<li>
 								<a href="#access">Access</a>

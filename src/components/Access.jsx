@@ -13,10 +13,8 @@ const Access = () => {
 						border: 0,
 						width: "100%",
 						height: 500,
-						filter: "grayscale(100%) invert(92%) contrast(83%)",
 					}}
 					src="https://maps.google.com/maps?q=sls%20shish&t=&z=13&ie=UTF8&iwloc=&output=embed"
-					frameBorder={0}
 					allowFullScreen=""
 					loading="lazy"
 					referrerPolicy="no-referrer-when-downgrade"
@@ -31,7 +29,7 @@ const Access = () => {
 								<div className="info-item d-flex">
 									<i className="bi bi-geo-alt flex-shrink-0" />
 									<div>
-										<h3>Location</h3>
+										<div style={{ color: "black" }}>Location</div>
 										<p>〒211-0004 Kanagawa, Kawasaki, Nakahara Ward, Shinmarukohigashi, 2 Chome−924-47 シャンティ加藤 3F</p>
 									</div>
 								</div>
@@ -39,7 +37,7 @@ const Access = () => {
 									<div className="info-item d-flex m-0 mt-4 margin-right-20">
 										<i className="bi bi-telephone flex-shrink-0" />
 										<div>
-											<h3>Call Us</h3>
+											<div style={{ color: "black" }}>Call Us</div>
 											<a
 												style={{
 													color: "rgba(255, 255, 255, 0.7)",
@@ -55,7 +53,7 @@ const Access = () => {
 									<div className="info-item d-flex m-0 mt-4 mb-4">
 										<i className="bi bi-envelope flex-shrink-0" />
 										<div>
-											<h3>Email Us</h3>
+											<div style={{ color: "black" }}>Email Us</div>
 											<p>info@example.com</p>
 										</div>
 									</div>
@@ -64,7 +62,7 @@ const Access = () => {
 							</div>
 							<div className="info-item d-flex m-0 lh-lg">
 								<div>
-									<h2 style={{ fontWeight: 700 }}>Open Hours</h2>
+									<h3 style={{ color: "black" }}>Open Hours</h3>{" "}
 									<p>
 										<b>Monday-Thursday:</b> 2:00 PM - 2:00 AM
 									</p>
