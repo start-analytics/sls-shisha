@@ -7,12 +7,15 @@ import Menu from "./components/Menu";
 import Access from "./components/Access";
 import { initializeScripts } from "./assets/js/main";
 import Footer from "./components/Footer";
-import shishaGirl from "./assets/img/girl_shisha.jpg";
-import shisha from "./assets/img/shisha.jpg";
+import shishaImg from "./assets/img/shisha.jpg";
 import System from "./components/System";
 import RecommendedMixes from "./components/Mixes";
 import Drinks from "./components/Drinks";
+import Snacks from "./components/Snacks";
+
 import ScrollTop from "./components/ScrollTop"; // Import the ScrollToTop component
+import drinkImg from "./assets/img/bg43.jpg";
+import snackImg from "./assets/img/snacks.jpg";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Homepage from "./components/Homepage";
@@ -37,7 +40,8 @@ function App() {
 					path="/sls-shisha/flavors"
 					element={
 						<>
-							<Header />
+							<Header page="flavors" />
+							<Hero img={shishaImg} height="60vh" />
 							<RecommendedMixes />
 							<Menu />
 							<Footer />
@@ -48,8 +52,21 @@ function App() {
 					path="/sls-shisha/drinks"
 					element={
 						<>
-							<Header />
+							<Header page="drinks" />
+							<Hero img={drinkImg} height="60vh" />
 							<Drinks />
+							<Footer />
+						</>
+					}
+				/>
+
+				<Route
+					path="/sls-shisha/snacks"
+					element={
+						<>
+							<Header page="snacks" />
+							<Hero img={snackImg} height="60vh" />
+							<Snacks />
 							<Footer />
 						</>
 					}

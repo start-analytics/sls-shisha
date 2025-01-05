@@ -40,7 +40,7 @@ const Access = () => {
 											<div style={{ color: "black" }}>Call Us</div>
 											<a
 												style={{
-													color: "rgba(255, 255, 255, 0.7)",
+													color: "rgba(0, 0, 0, 0.7)",
 													fontSize: 14,
 												}}
 												href="tel:+81444225800"
@@ -49,7 +49,7 @@ const Access = () => {
 											</a>
 										</div>
 									</div>
-									{/* End Info Item */}
+									{/* End Info Item 
 									<div className="info-item d-flex m-0 mt-4 mb-4">
 										<i className="bi bi-envelope flex-shrink-0" />
 										<div>
@@ -57,10 +57,10 @@ const Access = () => {
 											<p>info@example.com</p>
 										</div>
 									</div>
-									{/* End Info Item */}
+									End Info Item */}
 								</div>
 							</div>
-							<div className="info-item d-flex m-0 lh-lg">
+							<div className="info-item d-flex m-0 lh-lg mt-4">
 								<div>
 									<h3 style={{ color: "black" }}>Open Hours</h3>{" "}
 									<p>

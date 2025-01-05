@@ -15,9 +15,9 @@ const recommendedMixes = [
 ];
 const RecommendedMixes = () => {
 	return (
-		<section style={{ marginTop: "140px" }} id="recommended-mixes" className="menu section pb-0 pt-2">
+		<section id="recommended-mixes" className="menu section pb-0 pt-2 mt-5">
 			<div className="section-title pb-0 mb-5">
-				<h2 className="d-flex align-items-center justify-content-center">Recommended Mixes</h2>
+				<h2 className="d-flex align-items-center justify-content-center">Mixes</h2>
 			</div>
 			<div className="container isotope-layout" data-default-filter=".filter-fruit" data-layout="masonry" data-sort="original-order">
 				<div className="row">

@@ -1,3 +1,10 @@
+html,
+body,
+#root,
+#app,
+#app > div {
+	height: 100%;
+}
 /*--------------------------------------------------------------
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
@@ -580,15 +587,13 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
 	color: var(--default-color);
-	background-color: var(--background-color);
+	background-color: rgb(250, 250, 250);
 	font-size: 14px;
 	padding-bottom: 50px;
 	position: relative;
 }
 
 .footer .footer-top {
-	padding-top: 50px;
-	border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .footer .footer-about .logo {
@@ -870,7 +875,8 @@ h6 {
 section,
 .section {
 	color: var(--default-color);
-	padding: 60px 0;
+	padding-top: 60px;
+	padding-bottom: 30px;
 	scroll-margin-top: 77px;
 	overflow: clip;
 }
@@ -1882,4 +1888,10 @@ section,
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 3;
+}
+html,
+body,
+#app,
+#app > div {
+	height: 100%;
 }

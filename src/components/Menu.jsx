@@ -48,7 +48,7 @@ const Menu = () => {
 						</ul>
 					</div>
 				</div>
-				<div className="isotope-container custom-container mx-auto mt-1">
+				<div className="isotope-container custom-container mx-auto mt-4">
 					<div className="menu-container">
 						{fruits.map((fruit, index) => (
 							<MenuItem key={index} title={fruit} filter="filter-fruit" />

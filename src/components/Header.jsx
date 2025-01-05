@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const sections = {
+	homepage: ["home", "menu", "access"],
+	flavors: ["home", "recommended-mixes", "flavors"],
+	drinks: [],
+};
+
+const Header = ({ page }) => {
 	return (
 		<header id="header" className="header fixed-top">
 			<div className="branding d-flex align-items-cente">
@@ -12,16 +18,16 @@ const Header = () => {
 					</Link>
 					<nav id="navmenu" className="navmenu">
 						<ul>
-							<li>
-								<Link to="/sls-shisha" className="active">
-									Home
-									<br />
-								</Link>
-							</li>
-
-							<li>
-								<a href="#access">Access</a>
-							</li>
+							{sections[page]?.map((item, index) => (
+								<li key={index}>
+									<a href={`#${item}`} className={index === 0 ? "active" : ""}>
+										{item
+											.replace(/-/g, " ") // Replace hyphens with spaces
+											.replace(/\b\w/g, (char) => char.toUpperCase())}{" "}
+										{/* Capitalize words */}
+									</a>
+								</li>
+							))}
 						</ul>
 						<i className="mobile-nav-toggle d-xl-none bi bi-list" />
 					</nav>
