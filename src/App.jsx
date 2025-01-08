@@ -17,10 +17,10 @@ import drinkImg from "./assets/img/bg43.jpg";
 import snackImg from "./assets/img/snacks.jpg";
 import systemImg from "./assets/img/img1.png";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./components/Homepage";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
 	{
 		path: "/sls-shisha",
 		element: <Homepage />,
