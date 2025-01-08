@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
+import System from "./System";
 
 const sections = {
 	homepage: ["home", "menu", "access"],
 	flavors: ["home", "recommended-mixes", "flavors"],
-	drinks: [],
+	drinks: ["home"],
+	snacks: ["home"],
+	system: ["home"],
 };
 
 const Header = ({ page }) => {

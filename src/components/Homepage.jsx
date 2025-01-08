@@ -28,7 +28,7 @@ const Homepage = () => {
 						<div className="col-lg-3 col-md-4">
 							<div className="gallery-item">
 								<a href="/sls-shisha/flavors">
-									<div class="position-relative custom-img">
+									<div className="position-relative custom-img">
 										<img src={shishaImg} alt="" className="img-fluid w-100" />
 										<div className="position-absolute  custom-text">フレーバー</div>
 									</div>
@@ -40,7 +40,7 @@ const Homepage = () => {
 							<div className="gallery-item">
 								<a href="/sls-shisha/drinks">
 									{" "}
-									<div class="position-relative">
+									<div className="position-relative">
 										<img src={drinkImg} alt="" className="img-fluid w-100" />
 										<div className="position-absolute  custom-text">ドリンク</div>
 									</div>
@@ -50,7 +50,7 @@ const Homepage = () => {
 						<div className="col-lg-3 col-md-4">
 							<div className="gallery-item">
 								<a href="/sls-shisha/snacks">
-									<div class="position-relative custom-img">
+									<div className="position-relative custom-img">
 										<img src={snackImg} alt="" className="img-fluid w-100 " />
 										<div className="position-absolute custom-text">スナック</div>
 									</div>
@@ -60,9 +60,9 @@ const Homepage = () => {
 						<div className="col-lg-3 col-md-4">
 							<div className="gallery-item">
 								<a href="/sls-shisha/system">
-									<div class="position-relative">
+									<div className="position-relative">
 										<img src={systemImg} alt="" className="img-fluid w-100" />
-										<div className="position-absolute  custom-text">システ</div>{" "}
+										<div className="position-absolute  custom-text">システム</div>{" "}
 									</div>
 								</a>
 							</div>

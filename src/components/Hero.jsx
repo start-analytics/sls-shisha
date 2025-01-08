@@ -1,5 +1,5 @@
 import background from "../assets/img/bg12.jpg";
-import logo from "../assets/img/logo-shadow.png";
+import logo from "../assets/img/sls2.png";
 
 const Hero = ({ img = background, height }) => {
 	const style = {
@@ -15,7 +15,7 @@ const Hero = ({ img = background, height }) => {
 				<div className="row">
 					{!height && (
 						<div className="position-relative d-flex justify-content-center">
-							<img style={{ height: "250px", width: "250px" }} className="position-relative" src={logo} alt="" />
+							<img style={{ height: "230px", width: "230px" }} className="position-relative" src={logo} alt="" />
 						</div>
 					)}
 					<div className="d-flex flex-column align-items-center align-items-lg-center mt-5" style={{ textAlign: "center" }}>
