@@ -17,7 +17,7 @@ import drinkImg from "./assets/img/bg43.jpg";
 import snackImg from "./assets/img/snacks.jpg";
 import systemImg from "./assets/img/img1.png";
 
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Homepage from "./components/Homepage";
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
 		};
 	}, []);
 	return (
-		<Router>
+		<HashRouter>
 			<Routes>
 				<Route
 					path="/sls-shisha"
@@ -70,7 +70,6 @@ function App() {
 						</>
 					}
 				/>
-
 				<Route
 					path="/sls-shisha/snacks"
 					element={
@@ -82,7 +81,6 @@ function App() {
 						</>
 					}
 				/>
-
 				<Route
 					path="/sls-shisha/system"
 					element={
@@ -95,7 +93,7 @@ function App() {
 					}
 				/>
 			</Routes>
-		</Router>
+		</HashRouter>
 	);
 }
 
