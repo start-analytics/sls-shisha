@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sls-shisha/static/css/main.fad690b7.css",
+    "main.js": "/sls-shisha/static/js/main.d4d552ac.js",
+    "static/media/img1.png": "/sls-shisha/static/media/img1.7a0c569545f7cce3c462.png",
+    "static/media/sls2.png": "/sls-shisha/static/media/sls2.f8c8a35893f4fc77aebd.png",
+    "static/media/snacks.jpg": "/sls-shisha/static/media/snacks.2fc4c65dda0901323ab1.jpg",
+    "static/media/food.jpg": "/sls-shisha/static/media/food.2bf3b67d7c946026e0c5.jpg",
+    "static/media/bg43.jpg": "/sls-shisha/static/media/bg43.80d7f6515ce8a6527cdd.jpg",
+    "static/media/flavors.jpg": "/sls-shisha/static/media/flavors.d6e76958ffd84e721409.jpg",
+    "static/media/shisha.jpg": "/sls-shisha/static/media/shisha.a905c9fdd1b1b3bac716.jpg",
+    "static/media/img4.jpg": "/sls-shisha/static/media/img4.d48a2cc1510a708e202d.jpg",
+    "static/media/img3.jpg": "/sls-shisha/static/media/img3.9cf1c59c9dba7a8307fe.jpg",
+    "static/media/img2.jpg": "/sls-shisha/static/media/img2.71929cfe6606667f8d1b.jpg",
+    "static/media/bg12.jpg": "/sls-shisha/static/media/bg12.6b4184c47136dd31b7d3.jpg",
+    "index.html": "/sls-shisha/index.html",
+    "main.fad690b7.css.map": "/sls-shisha/static/css/main.fad690b7.css.map",
+    "main.d4d552ac.js.map": "/sls-shisha/static/js/main.d4d552ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fad690b7.css",
+    "static/js/main.d4d552ac.js"
+  ]
+}
