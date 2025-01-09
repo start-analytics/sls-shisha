@@ -18,7 +18,7 @@ const Footer = () => {
 				<div className="credits">
 					Powered by{" "}
 					<a target="_blank" style={{ color: " rgb(53, 134, 239)", fontWeight: "bold", fontSize: "16px" }} rel="noreferrer" href="https://startanalytics.net/">
-						startanalytics.ne
+						startanalytics.net
 					</a>
 				</div>
 			</div>
