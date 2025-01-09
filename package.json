@@ -42,7 +42,7 @@
   "devDependencies": {
     "gh-pages": "^6.2.0"
   },
-  "homepage": "https://start-analytics.github.io/sls-shisha/#",
+  "homepage": "https://start-analytics.github.io/sls-shisha",
   "main": "index.js",
   "repository": {
     "type": "git",
