@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import RecommendedMixes from "../components/Mixes";
-import { initializeScrollEffect, initializeMobileNavToggle, initializeScrollspy } from "../assets/js/main";
+import { initializeScrollEffect, initializeMobileNavToggle, initializeScrollspy, initializeIsotopeLayouts } from "../assets/js/main";
 
 const Flavor = () => {
 	const [isMobileNavActive, setIsMobileNavActive] = useState(false);
@@ -13,11 +13,13 @@ const Flavor = () => {
 	useEffect(() => {
 		const cleanupScrollEffect = initializeScrollEffect();
 		const cleanupMobileNavToggle = initializeMobileNavToggle(setIsMobileNavActive);
+		const cleanupIsotopeLayouts = initializeIsotopeLayouts();
 		const cleanupScrollspy = initializeScrollspy();
 
 		return () => {
 			cleanupScrollEffect();
 			cleanupMobileNavToggle();
+			cleanupIsotopeLayouts();
 			cleanupScrollspy();
 		};
 	}, []);

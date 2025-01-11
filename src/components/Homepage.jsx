@@ -10,7 +10,7 @@ import drinkImg from "../assets/img/img3.jpg";
 import foodImg from "../assets/img/food.jpg";
 import systemImg from "../assets/img/img1.png";
 import snackImg from "../assets/img/snacks.jpg";
-import { initializeScrollEffect, initializeMobileNavToggle, initializeIsotopeLayouts, initializeScrollspy } from "../assets/js/main";
+import { initializeScrollEffect, initializeMobileNavToggle, initializeScrollspy } from "../assets/js/main";
 
 const Homepage = () => {
 	const [isMobileNavActive, setIsMobileNavActive] = useState(false);
@@ -18,13 +18,11 @@ const Homepage = () => {
 	useEffect(() => {
 		const cleanupScrollEffect = initializeScrollEffect();
 		const cleanupMobileNavToggle = initializeMobileNavToggle(setIsMobileNavActive);
-		const cleanupIsotopeLayouts = initializeIsotopeLayouts();
 		const cleanupScrollspy = initializeScrollspy();
 
 		return () => {
 			cleanupScrollEffect();
 			cleanupMobileNavToggle();
-			cleanupIsotopeLayouts();
 			cleanupScrollspy();
 		};
 	}, []);
