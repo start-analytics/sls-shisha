@@ -39,7 +39,7 @@
     ]
   },
   "main": "index.js",
-  "homepage": "/sls-shisha",
+  "homepage": ".",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/start-analytics/sls-shisha.git"

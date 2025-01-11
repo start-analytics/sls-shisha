@@ -14,7 +14,7 @@ const Header = ({ page }) => {
 		<header id="header" className="header fixed-top">
 			<div className="branding d-flex align-items-cente">
 				<div className="container position-relative d-flex align-items-center justify-content-between">
-					<Link to="/sls-shisha" className="logo d-flex align-items-center me-auto me-xl-0">
+					<Link to="/" className="logo d-flex align-items-center me-auto me-xl-0">
 						<div className="d-flex">
 							<h1 className="sitename">SLS 武蔵小杉 シーシャcafe & bar</h1>
 						</div>

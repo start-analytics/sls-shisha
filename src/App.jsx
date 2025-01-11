@@ -40,7 +40,7 @@ function App() {
 		<Router>
 			<Routes>
 				<Route
-					path="/sls-shisha"
+					path="/"
 					element={
 						<>
 							<Homepage />
@@ -48,7 +48,7 @@ function App() {
 					}
 				/>
 				<Route
-					path="/sls-shisha/flavors"
+					path="/flavors"
 					element={
 						<>
 							<Header page="flavors" />
@@ -60,7 +60,7 @@ function App() {
 					}
 				/>
 				<Route
-					path="/sls-shisha/drinks"
+					path="/drinks"
 					element={
 						<>
 							<Header page="drinks" />
@@ -72,7 +72,7 @@ function App() {
 				/>
 
 				<Route
-					path="/sls-shisha/snacks"
+					path="/snacks"
 					element={
 						<>
 							<Header page="snacks" />
@@ -84,7 +84,7 @@ function App() {
 				/>
 
 				<Route
-					path="/sls-shisha/system"
+					path="/system"
 					element={
 						<>
 							<Header page="system" />
