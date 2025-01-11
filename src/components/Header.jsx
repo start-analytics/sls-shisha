@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import System from "./System";
+import System from "./SystemMenu";
 
 const sections = {
 	homepage: ["home", "menu", "access"],

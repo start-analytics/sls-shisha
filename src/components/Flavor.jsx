@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
-import Header from "./Header";
-import Hero from "./Hero";
-import Footer from "./Footer";
+import shishaImg from "../assets/img/shisha.jpg";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Menu from "../components/Menu";
+import Footer from "../components/Footer";
+import RecommendedMixes from "../components/Mixes";
 import { initializeScrollEffect, initializeMobileNavToggle, initializeScrollspy } from "../assets/js/main";
-import SystemMenu from "./SystemMenu";
-import systemImg from "../assets/img/img1.png";
 
-const System = () => {
+const Flavor = () => {
 	const [isMobileNavActive, setIsMobileNavActive] = useState(false);
 
 	useEffect(() => {
@@ -22,12 +23,13 @@ const System = () => {
 	}, []);
 	return (
 		<>
-			<Header page="system" />
-			<Hero img={systemImg} height="60vh" />
-			<SystemMenu />
+			<Header page="flavors" />
+			<Hero img={shishaImg} height="60vh" />
+			<RecommendedMixes />
+			<Menu />
 			<Footer />
 		</>
 	);
 };
 
-export default System;
+export default Flavor;

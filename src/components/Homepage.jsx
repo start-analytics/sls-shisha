@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { initializeScripts } from "../assets/js/main";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -10,8 +10,24 @@ import drinkImg from "../assets/img/img3.jpg";
 import foodImg from "../assets/img/food.jpg";
 import systemImg from "../assets/img/img1.png";
 import snackImg from "../assets/img/snacks.jpg";
+import { initializeScrollEffect, initializeMobileNavToggle, initializeIsotopeLayouts, initializeScrollspy } from "../assets/js/main";
 
 const Homepage = () => {
+	const [isMobileNavActive, setIsMobileNavActive] = useState(false);
+
+	useEffect(() => {
+		const cleanupScrollEffect = initializeScrollEffect();
+		const cleanupMobileNavToggle = initializeMobileNavToggle(setIsMobileNavActive);
+		const cleanupIsotopeLayouts = initializeIsotopeLayouts();
+		const cleanupScrollspy = initializeScrollspy();
+
+		return () => {
+			cleanupScrollEffect();
+			cleanupMobileNavToggle();
+			cleanupIsotopeLayouts();
+			cleanupScrollspy();
+		};
+	}, []);
 	return (
 		<>
 			<Header page="homepage" />
