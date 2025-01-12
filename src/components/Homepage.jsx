@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { initializeScripts } from "../assets/js/main";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import Access from "../components/Access";
 import shishaImg from "../assets/img/flavors.jpg";
 import drinkImg from "../assets/img/img3.jpg";
-import foodImg from "../assets/img/food.jpg";
 import systemImg from "../assets/img/img1.png";
 import snackImg from "../assets/img/snacks.jpg";
-import { initializeScrollEffect, initializeMobileNavToggle, initializeScrollspy } from "../assets/js/main";
+import { initializeMobileNavCloseOnLinkClick, initializeScrollEffect, initializeMobileNavToggle, initializeScrollspy } from "../assets/js/main";
 
 const Homepage = () => {
 	const [isMobileNavActive, setIsMobileNavActive] = useState(false);
@@ -19,11 +16,13 @@ const Homepage = () => {
 		const cleanupScrollEffect = initializeScrollEffect();
 		const cleanupMobileNavToggle = initializeMobileNavToggle(setIsMobileNavActive);
 		const cleanupScrollspy = initializeScrollspy();
+		const cleanupMobileNavClose = initializeMobileNavCloseOnLinkClick();
 
 		return () => {
 			cleanupScrollEffect();
 			cleanupMobileNavToggle();
 			cleanupScrollspy();
+			cleanupMobileNavClose();
 		};
 	}, []);
 	return (

@@ -49,6 +49,24 @@ export function initializeMobileNavToggle(toggleStateCallback) {
 	};
 }
 
+export function initializeMobileNavCloseOnLinkClick() {
+	const handleNavLinkClick = () => {
+		if (document.body.classList.contains("mobile-nav-active")) {
+			const toggleButton = document.querySelector(".mobile-nav-toggle");
+			if (toggleButton) {
+				toggleButton.click(); // Simulates a click on the mobile nav toggle button
+			}
+		}
+	};
+
+	const navLinks = document.querySelectorAll("#navmenu a");
+	navLinks.forEach((link) => link.addEventListener("click", handleNavLinkClick));
+
+	return () => {
+		navLinks.forEach((link) => link.removeEventListener("click", handleNavLinkClick));
+	};
+}
+
 export function initializeIsotopeLayouts() {
 	const isotopeInstances = [];
 

@@ -16,7 +16,7 @@ const Footer = () => {
 					© <span>Copyright</span> <strong className="px-1 sitename">SLS Shisha</strong> <span>All Rights Reserved</span>
 				</p>
 				<div className="credits">
-					Powered by{" "}
+					Powered by <br /> ウェブサイ制作 <br />
 					<a target="_blank" style={{ color: " rgb(53, 134, 239)", fontWeight: "bold", fontSize: "16px" }} rel="noreferrer" href="https://startanalytics.net/">
 						startanalytics.net
 					</a>
